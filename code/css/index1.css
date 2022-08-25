@@ -1,0 +1,504 @@
+#mymap{
+  float: left;
+  width: 1200px;
+}
+
+.form-control{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100px !important;
+  border:none;
+}
+p{
+  font-size: 18px;
+  margin-left: 20%;
+  
+}
+.info 
+{
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 
+{
+    margin: 0 0 5px;
+    color: #777;
+}
+.legend 
+{
+    line-height: 18px;
+    color: #555;
+}
+.legend i
+{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+#map
+{
+    padding: 5px;
+    height:  90vh ;
+    width: 100%;
+    box-shadow: 0 0 30px rgb(124, 120, 120);
+}
+*
+{
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+}
+main 
+{
+        display: flex;
+       
+}
+.store-list
+{
+        width: 25%;
+        height: 100vh;
+        overflow: auto;
+}
+   
+::-webkit-scrollbar 
+{
+        width: 3px;
+        height: 3px;
+        border-left: 0;
+        background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb 
+{
+        background: #09a11d;
+        border-radius: 0;
+}
+.leaflet-popup-content-wrapper 
+{
+        padding: 0;
+        overflow: hidden;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content
+{
+        margin: 0;
+}
+.leaflet-popup-content-wrapper h4 
+{
+        padding: 16px;
+        background: #09a11d;
+        color: #fff;
+        font-size: 16px;
+}
+.leaflet-popup-content-wrapper p 
+{
+        padding: 0 16px;
+        font-size: 14px;
+        margin-bottom: 14px;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content .phone-number
+{
+        padding: 16px;
+        padding-top: 0;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content .phone-number a 
+{
+        color: #09a11d;
+        font-size: 14px;
+}
+#get_user_location_id
+{
+    float: right;
+    background-color: transparent;
+    border: 1px;
+    border-radius: 2%;
+}
+.leaflet-sidebar.left.visible ~ .leaflet-left 
+{
+  left: 330px !important;
+}
+.leaflet-sidebar .close 
+{
+    right: 110px !important;
+    top: 10px !important;
+    width: 31px;
+    height: 31px;
+    
+}
+.leaflet-container a 
+{
+    color: #0078A8;
+}
+
+#basemaps-wrapper 
+{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    z-index: 400;
+    background: white;
+    padding: 10px;
+}
+#basemaps 
+{
+    margin-bottom: 5px;
+}
+  
+.heading
+{
+    
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 34px;
+    box-shadow: 0px 8px 20px 0px rgba(243, 243, 243, 0.959);
+}
+  
+.heading .inner-form 
+{
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 34px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    background-color: #e7e7e7;
+    
+}
+  
+.heading .inner-form .input-field #ch
+{
+    box-shadow: 0px 8px 20px 0px rgba(2, 1, 1, 0.959);
+    border-radius: 34px;
+    overflow: hidden;
+    border: 0;
+    background-color: white;
+    display: block;
+    width: 90%;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #000;
+}
+.heading .inner-form .input-field input.placeholder 
+{
+    color: #222;
+    font-size: 16px;
+}
+.heading .inner-form .input-field input:-moz-placeholder 
+{
+    color: #222;
+    font-size: 16px;
+}
+.heading .inner-form .input-field input::-webkit-input-placeholder 
+{
+    color: #222;
+    font-size: 16px;
+}
+  
+.heading .inner-form .input-field input:hover,.heading .inner-form .input-field input:focus 
+{
+    box-shadow: none;
+    outline: 0;
+}
+  
+.heading .inner-form .input-field.first-wrap 
+{
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -ms-flex-align: center;
+        align-items: center;
+    background: #e7e7e7;
+}
+.heading .inner-form .input-field.first-wrap .svg-wrapper
+{
+    min-width:5%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.heading .inner-form .input-field.second-wrap .btn-search 
+{
+    box-shadow: 0px 8px 20px 0px rgba(2, 1, 1, 0.959);
+    border-radius: 34px;
+    overflow: hidden;
+    border: 0;
+    background-color: #0dc258;;
+    display: block;
+    width: 93%;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.heading .inner-form .input-field.second-wrap .btn-search:hover 
+{
+    background: #009451;
+}
+.heading .inner-form .input-field.second-wrap
+{
+    padding-right: 7px;
+}
+ #click 
+{
+    outline: none;
+    background: none;
+    border: none;
+    font-family: inherit;
+}
+.btn-submit 
+{
+    box-shadow: 0px 8px 20px 0px rgba(2, 1, 1, 0.959);
+    border-radius: 34px;
+    overflow: hidden;
+    border: 0;
+    background-color: #0dc258;;
+    display: block;
+    width: 60%;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn-submit:hover 
+{
+    background: #009451;
+}
+.lieudit
+{
+    padding: 6% !important;
+}
+.daterangepicker 
+{
+    display: none;
+    width: 570px;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 30px 35px ;
+    padding-top: 27px;
+    padding-bottom: 45px;
+    margin-top: 5px;
+    margin-left: -48px;
+}
+.daterangepicker td
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    height: 30px !important;
+    width: 3Opx !important;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+} 
+.daterangepicker td .start-date, .daterangepicker td.end-date
+{
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    background: #00ad5f !important;
+}
+.daterangepicker td.in-range 
+{
+    background: #d9f1e3 !important;
+}
+.daterangepicker td.today 
+{
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    background: #c9c9c9 !important;
+}
+.daterangepicker td.today.in-range 
+{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0% !important;
+    background: #00ad5f !important;
+}
+.daterangepicker td.off, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .daterangepicker td.off.end-date 
+{
+    background: transparent !important;
+    color: #aaa !important;
+}
+.daterangepicker select 
+{
+    outline: none !important;
+    font-family: inherit !important;
+}
+.daterangepicker select.monthselect, .daterangepicker select.yearselect 
+{
+    font-size: 14px !important;
+    padding: 8px 4px !important;
+}
+  
+.daterangepicker td.active,.daterangepicker td.active:hover 
+{
+    background: #00ad5f !important;
+}
+.dropdown-datepicker 
+{
+    position: relative !important;
+}
+.dropdown-datepicker .daterangepicker 
+{
+    width: 280px !important;
+    padding: 10px !important;
+}
+.store-list input
+{
+    outline: none;
+    margin: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    font-family: inherit;
+}
+.store-list input:disabled 
+{
+    background: transparent;
+    cursor: pointer;
+}
+.input-group 
+{
+    box-shadow: 0px 8px 20px 0px rgba(2, 1, 1, 0.959);
+    position: relative;
+    margin-bottom: 15px;
+    background: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 9px 48px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.input-group-symbol 
+{
+    position: absolute;
+    font-size: 24px;
+    color: #ccc;
+    left: 18px;
+    bottom: 10px;
+}
+.label 
+{
+    font-size: 12px;
+    color: #555;
+    text-transform: capitalize;
+    display: block;
+    font-weight: 700;
+}
+#side-bar
+{
+    box-shadow: 0px 8px 15px 0px rgba(243, 243, 243, 0.959);
+      background-color:transparent;
+      border-radius: 34px;
+      width: 70%;
+}
+.input--style-1
+{
+    font-size: 12px;
+    padding: 5px 2px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    color: #808080;
+}
+.card-3 
+{
+    box-shadow: 0px 8px 10px 0px rgba(243, 243, 243, 0.959);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom:2% ;
+    margin-top: 20px;
+    background-color: #e7e7e7;
+}
+
+
+  
+  
+  
+  
+  
+  
+ 
+     
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(37, 30, 30, 0.5) 10%, rgba(112, 103, 103, 0.616) 25%, rgba(46, 42, 42, 0.486) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  
+    
+  
+}
+body{
+  background-color: rgba(0, 0, 0, 0.239);
+  background-image: url("forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav ul li {
+  display: inline-block;
+ 
+}
+
+nav ul li a {
+  padding: 15px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.911);
+  text-shadow: 1px 1px 1px rgba(251, 247, 247, 0.794);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(245, 246, 244, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+}
+nav {
+  max-width: 960px;
+  /* The mask-image gives us some extra fading. It is not necessary but without this, you can't face out the box-shadows. This clips our menu */
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  /* Using padding instead of margin for the top and bottom here will keep our box-shadow visible and not affected by the mask-image */
+  padding: 10px 0;
+}

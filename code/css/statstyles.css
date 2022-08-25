@@ -1,0 +1,116 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#stat
+{
+    width: 500px;
+    height: 90vh;
+    text-align: center;
+    float: right;   
+}
+#chart-container,#degat-container,#vegetation-container
+{
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    margin: 2% 10%;
+    border-radius: 3%;
+    padding: 10px;
+}
+
+.content
+{
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 0px 5px 10px 0px rgba(238, 232, 232, 0.959);
+    margin:0 3%;
+
+}
+
+.vegetationBox
+{
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(238, 232, 232, 0.959);
+    border-radius: 3%;
+    margin:0 3%;
+}
+
+
+.bttonBox
+{
+    width: 350px;
+    margin: 0% auto 5%;
+}
+
+.bttonBox ul
+{
+    display: flex;
+}
+
+.bttonBox ul li 
+{
+    list-style: none;
+}
+
+.btn 
+{
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px ;
+}
+
+.btn.foret
+{
+    background-color: #86bfc7;
+    margin-left: 10%;
+}
+.btn.foret:hover
+{
+    background-color: #5F939A;
+   
+}
+.btn.maquis
+{
+    background-color: #529b7b;
+    margin-left: 30%;
+}
+.btn.maquis:hover
+{
+    background-color: #3A6351;
+}
+.btn.brouss
+{
+    background-color: #c8b89c;
+    margin-left: 50%;
+}
+.btn.brouss:hover
+{
+    background-color: #9c907c;
+}
+.btn.autre:hover
+{
+    background-color: #959940;
+    
+}
+.btn.autre
+{
+    background-color: #A3A847;
+    margin-left: 90%;
+}
+.statistique
+{
+    box-shadow: 0px 8px 20px 0px rgba(2, 1, 1, 0.959);
+    border-radius: 34px;
+    border: 0;
+    width: 100% !important;
+   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif !important;
+    font-size: 17px;
+   
+    margin-top: 10;
+    margin-bottom: 10%;
+    cursor: pointer;
+   
+}

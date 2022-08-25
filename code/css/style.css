@@ -1,0 +1,123 @@
+body
+{
+  font-family: cursive;
+}
+#message
+{
+  text-align:center;
+  border:0;
+  margin-top: 50px;
+  margin-left: 5%;
+  font-size:20px;
+  background-color: rgba(177, 174, 149, 0.808);
+  color: rgb(107, 9, 9);
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px 3px rgba(122, 18, 18, 28); 
+}
+.login-div 
+{
+    width:device-width;
+    min-height: 500px;
+    border-radius: 34px;
+          filter: blur(0.4px);
+          box-shadow:
+          0px 20px 20px rgba(0,0,0,0.8),
+          0px 5px 10px rgba(0,0,0,0.8),
+          /*long bottom shadow*/
+          0px 20px 20px rgba(0,0,0,0.8),
+          /*right shadow*/
+          30px 50px 20px rgba(0,0,0,0.8),
+          /*left shadow*/
+          -30px 50px 50px rgba(0,0,0,0.8),
+          /*right inset*/
+          inset 20px 0px 60px rgba(151, 132, 132, 0.8),
+          /*left inset*/
+          inset -20px 0px 60px rgba(151, 132, 132, 0.8);
+   
+    margin-top: 80px;
+	
+        
+}
+.logo 
+{
+   width:120px;
+   height:120px;
+   border-radius: 50%;
+
+    margin: 5 auto;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.fields
+{
+  
+    padding: 30px 5px 30px 5px;
+}
+.fields input 
+{
+    border-radius: 34px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    width: 40%;
+    color:white;
+    margin-left: 28%;
+    padding: 10px 10px 10px 5px;
+    margin-top: 20px;
+    font-family: cursive;
+    background-color: rgba(177, 174, 149, 0.678);
+}
+.fields input:hover
+{
+    box-shadow: 0px 8px 20px 0px rgba(243, 243, 243, 0.959);
+}
+::placeholder 
+{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+	
+}
+.signin-button 
+{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    height: 50px;
+    border-radius: 34px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    text-align: center;
+    letter-spacing: 1px;
+    background: #09a11d;
+    border-radius: 34px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    margin-left: 38%;
+    font-family: cursive;
+}
+.signin-button:hover 
+{
+    background: #056812;
+    
+      box-shadow: 0px 8px 20px 0px rgba(243, 243, 243, 0.959);
+    
+}
+.signin-button:active 
+{
+    background: radial-gradient(circle, #1da88a, #1ea084, #229c82, #23947b, #238d76);
+}
+body 
+{
+    background:url('back7.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+svg
+{
+    visibility: hidden !important;
+}
+  
+ 
