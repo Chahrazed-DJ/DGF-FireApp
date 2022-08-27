@@ -35,9 +35,30 @@ La problématique étudiée dans le projet est née d'un réel besoin exprimé p
 - Ajouter les cordonnées géographiques d'un feu déclanché puis le visualiser sur la map par la suite 
 
 ## Présentation des interfaces 
-<div align="center">
-
-</div>
+<table align="center">
+  <tr> <th> Connexion </th> </tr>
+  <tr>
+    <td> <img src="captures/login.png" width="600" height="300"/></td>
+  </tr>
+</table>
+<table align="center">
+  <tr> 
+         <th > Changer le fond de carte </th>
+         <th> Afficher le nombre de feux et les statistiques par commune </th>
+  </tr>
+  <tr>
+    <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P1.gif" />  </td>
+    <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P2.gif" />  </td>
+  </tr>
+  
+  <tr> 
+         <th colspan="2"> Afficher les couches </th>  
+  </tr>
+  <tr>
+    <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P3.gif" />  </td>
+    <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P4.gif" />  </td>
+  </tr>
+</table>
 
 ## Base de données
 <p align="center">
