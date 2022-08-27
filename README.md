@@ -58,6 +58,24 @@ La problématique étudiée dans le projet est née d'un réel besoin exprimé p
     <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P3.gif" />  </td>
     <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P4.gif" />  </td>
   </tr>
+  
+  <tr> 
+         <th > Chercher un lieu dit </th>
+         <th> Afficher les anciens feux</th>
+  </tr>
+  <tr>
+    <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P5.gif" />  </td>
+    <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P6.gif" />  </td>
+  </tr>
+  
+   <tr> 
+         <th > Ajout de feux </th>
+         <th> Afficher les feux ajoutés</th>
+  </tr>
+  <tr>
+    <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P7.gif" />  </td>
+    <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P8.gif" />  </td>
+  </tr>
 </table>
 
 ## Base de données
