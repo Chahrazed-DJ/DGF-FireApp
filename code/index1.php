@@ -17,7 +17,7 @@
         <link href="lib/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
         <link href="lib/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
-        <!--STAT-->
+       
         <link rel="stylesheet" href="css/statstyles.css">
     </head>
     <body>
