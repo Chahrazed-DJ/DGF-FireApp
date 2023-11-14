@@ -1,16 +1,17 @@
+# Implementation of a GIS for the analysis of the phenomenon of Forest Fires
+This is the English version of the README. For French, please see [README_FR.md](./README_FR.md).
 
-# Description de Projet: Mise en oeuvre d'un SIG pour l'analyse du phénomène des Feux de Forêts 
+## Description
 
-> Ce projet se rapporte à une expérience très bénifique et instructive qui consiste à mettre en oeuvre un système d'aide à la décision supporté par les SIG.
-Ce qu'on appelle aussi la visualisation cartographique, en utilisant des technologies du webmapping après avoir collecter des différentes données décrivant la zone 
-d'étude auprès de la conservation de la wilaya de Bouira.
-La problématique étudiée dans le projet est née d'un réel besoin exprimé par la direction générale de forêts d'Alger (DGF).
+> This project involves a very beneficial and instructive experience, which consists of implementing a decision support system supported by GIS. This is also known as cartographic visualization, using web mapping technologies after collecting various data describing the study area from the conservation department of the Bouira province.
+> 
+> The issue studied in the project arose from a real need expressed by the Directorate General of Forests of Algiers (DGF).
 
 <div align="center">
-  <img src="captures/first.png" alt="first page" />
+  <img src="captures/Webmap%20Design.png" alt="first page" width="800px" />
 </div>
 
-## Outils et environnement de développement
+## Tools and Development Environment
 <div align="center">
        <b> HTML5 </b>
     -- <b> CSS3 </b>
@@ -27,24 +28,18 @@ La problématique étudiée dans le projet est née d'un réel besoin exprimé p
     -- <b> QGIS </b>
 </div>
 
-## Ce qu'on peut faire avec l'application ( Les fonctionnalités )
-- Visualiser et naviguer sur la carte 
-- Afficher les statistiques sous forme graphique (Diagrammes) 
-- Afficher les différentes couches ( accès aux différents éléments de l'infra structure forestière ) en naviguant sur la carte et consulter les données de chaque couche sous forme de texte 
-- Chercher un lieu dit ( Daira , Commune et Section forestière)
-- Ajouter les cordonnées géographiques d'un feu déclanché puis le visualiser sur la map par la suite 
+## What can be done with the application (Features)
+- View and navigate on the map
+- Display statistics in graphical form (diagrams)
+- Show various layers (access to different elements of the forest infrastructure) by navigating the map and consult the data of each layer in text form
+- Search for a location (District, Municipality, and Forest Section)
+- Add the geographical coordinates of a triggered fire and then visualize it on the map afterward
 
-## Présentation des interfaces 
-<table align="center">
-  <tr> <th> Connexion </th> </tr>
-  <tr>
-    <td> <img src="captures/login.png" width="600" height="300"/></td>
-  </tr>
-</table>
+## Interface Presentation
 <table align="center">
   <tr> 
-         <th > Changer le fond de carte </th>
-         <th> Afficher le nombre de feux et les statistiques par commune </th>
+         <th > Change Map Background </th>
+         <th> Display the Number of Fires and Statistics by Municipality </th>
   </tr>
   <tr>
     <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P1.gif" />  </td>
@@ -52,7 +47,7 @@ La problématique étudiée dans le projet est née d'un réel besoin exprimé p
   </tr>
   
   <tr> 
-         <th colspan="2"> Afficher les couches </th>  
+         <th colspan="2"> Display Layers </th>  
   </tr>
   <tr>
     <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P3.gif" />  </td>
@@ -60,8 +55,8 @@ La problématique étudiée dans le projet est née d'un réel besoin exprimé p
   </tr>
   
   <tr> 
-         <th > Chercher un lieu dit </th>
-         <th> Afficher les anciens feux</th>
+         <th >Search for a Location </th>
+         <th> Display Previous Fires</th>
   </tr>
   <tr>
     <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P5.gif" />  </td>
@@ -69,8 +64,8 @@ La problématique étudiée dans le projet est née d'un réel besoin exprimé p
   </tr>
   
    <tr> 
-         <th > Ajout de feux </th>
-         <th> Afficher les feux ajoutés</th>
+         <th >Adding Fires</th>
+         <th> Display Added Fires</th>
   </tr>
   <tr>
     <td>  <img src="https://github.com/Chahrazed-DJ/DGF-FireApp/blob/main/captures/P7.gif" />  </td>
@@ -78,17 +73,16 @@ La problématique étudiée dans le projet est née d'un réel besoin exprimé p
   </tr>
 </table>
 
-## Base de données
+## Database
 <p align="center">
-La base de données est conçue à partir des données collectées par la conservation de la wilaya de Bouira sous forme de <b> shapefile </b>, et qui ont nécessité une analyse
-et des traitements afin de les implémenter en utilisant <b> PostgreSQL </b> avec son extension <b> PostGIS </b>. </br>
-Le format <b> shapefile </b> permet de stocker les données vectorielles (utilisé très souvent dans les systèmes d'informations géographiques).
+The database is designed from data collected by the conservation department of the Bouira province in the form of a <b>shapefile</b>, requiring analysis and processing for implementation using <b>PostgreSQL</b> with its extension <b>PostGIS</b>. </br>
+The <b>shapefile</b> format is used for storing vector data and is commonly employed in geographic information systems.
 </p>
 
 <table align="center">
   <tr>
     <th>
-    📝 Comme les données sont non partageables donc le fichier de la BD n'est pas disponnible pour tous
+    📝 As the data is non-shareable, the database file is not available to everyone.
     </th>
   </tr>
 </table>
