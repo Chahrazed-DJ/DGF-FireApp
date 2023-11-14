@@ -29,7 +29,7 @@ La problématique étudiée dans le projet est née d'un réel besoin exprimé p
     -- <b> QGIS </b>
 </div>
 
-## Ce qu'on peut faire avec l'application ( Les fonctionnalités )
+## Ce qu'on peut faire avec l'application ( fonctionnalités )
 - Visualiser et naviguer sur la carte 
 - Afficher les statistiques sous forme graphique (Diagrammes) 
 - Afficher les différentes couches ( accès aux différents éléments de l'infra structure forestière ) en naviguant sur la carte et consulter les données de chaque couche sous forme de texte 
