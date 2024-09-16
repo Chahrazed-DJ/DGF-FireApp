@@ -7,9 +7,9 @@ This is the English version of the README. For French, please see [README_FR.md]
 > 
 > The issue studied in the project arose from a real need expressed by the Directorate General of Forests of Algiers (DGF).
 
-<div align="center">
+<!-- <div align="center">
   <img src="captures/Webmap%20Design.png" alt="first page" width="800px" />
-</div>
+</div> -->
 
 ## Tools and Development Environment
 <div align="center">
