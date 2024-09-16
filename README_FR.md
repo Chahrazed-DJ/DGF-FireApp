@@ -8,9 +8,9 @@ Ce qu'on appelle aussi la visualisation cartographique, en utilisant des technol
 d'étude auprès de la conservation de la wilaya de Bouira.
 La problématique étudiée dans le projet est née d'un réel besoin exprimé par la direction générale de forêts d'Alger (DGF).
 
-<div align="center">
+<!-- <div align="center">
   <img src="captures/Webmap%20Design.png" alt="first page" width="800px" />
-</div>
+</div> -->
 
 ## Outils et environnement de développement
 <div align="center">
